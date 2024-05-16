@@ -1,0 +1,47 @@
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  padding-top: 80px;
+  padding-left: 96px;
+  padding-right: 24px;
+  background-color: rgb(244, 244, 244);
+}
+
+.side-bar {
+  position: fixed;
+  top: 53px;
+  left: 0;
+  bottom: 0;
+  width: 90px;
+  background-color: white;
+  z-index: 200;
+}
+
+.content-sidebar {
+  height: 76px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.sidebar-icones {
+  height: 24px;
+  width: 50px ;
+}
+
+.content-sidebar div {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.content-sidebar:hover {
+  background-color: rgb(235, 235, 235);
+}
